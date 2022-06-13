@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    margin-top: 2em;
+}
+form {
+    background-color: beige;
+    padding: 2em;
+    height: 5.5em;
+    margin: auto;
+}
+form label {
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+form label > span {
+    width: 25%;
+    float: left;
+    padding-left: 5%;
+}
+form input[type=text] {
+    width: 60%;
+}
+form input[type=button] {
+    float: right;
+    margin-right: 9%;
+    height: 2.2em;
+}
+div {
+    border: 1px black solid;
+    width: 31em;
+    margin: auto;
+}
+form + div {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-right: none;
+    border-left: none;
+    color: green;
+}
+div > span {
+    color: red;
+}
