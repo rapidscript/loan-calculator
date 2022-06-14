@@ -3,7 +3,7 @@ h1 {
     margin-top: 2em;
 }
 form {
-    background-color: beige;
+    background-color: grey;
     padding: 2em;
     height: 5.5em;
     margin: auto;
@@ -19,14 +19,17 @@ form label > span {
 }
 form input[type=text] {
     width: 60%;
+    color: darkslategray;
 }
 form input[type=button] {
     float: right;
     margin-right: 9%;
     height: 2.2em;
+    background-color: darkslategray;
+    color:  white;
 }
 div {
-    border: 1px black solid;
+    border: 1px white solid;
     width: 31em;
     margin: auto;
 }
@@ -36,8 +39,15 @@ form + div {
     padding-bottom: 2em;
     border-right: none;
     border-left: none;
-    color: green;
+    color: turquoise;
 }
 div > span {
     color: red;
 }
+body{
+    background-color: black;
+}
+span {
+    color: white;
+}
+
