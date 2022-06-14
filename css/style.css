@@ -1,9 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+}
 h1 {
     text-align: center;
     margin-top: 2em;
 }
 form {
-    background-color: beige;
+    background-color: rgb(77, 77, 67);
     padding: 2em;
     height: 5.5em;
     margin: auto;
