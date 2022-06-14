@@ -1,9 +1,15 @@
+
+body{
+    background-color: #252525;
+    color: white;
+}
+
 h1 {
     text-align: center;
     margin-top: 2em;
 }
 form {
-    background-color: beige;
+    background-color: rgb(75, 75, 73);
     padding: 2em;
     height: 5.5em;
     margin: auto;
@@ -24,9 +30,11 @@ form input[type=button] {
     float: right;
     margin-right: 9%;
     height: 2.2em;
+    color: white;
+    background-color: rgb(75, 75, 73);
 }
 div {
-    border: 1px black solid;
+    border: 1px white solid;
     width: 31em;
     margin: auto;
 }
